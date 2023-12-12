@@ -1,6 +1,5 @@
 const ratingEls = document.querySelectorAll('.rating');
-
-
+const backdrop = document.getElementById('backdrop');
 
 
 
@@ -16,5 +15,5 @@ ratingEls.forEach((ratingEl) => {
 function removeActive() {
   ratingEls.forEach((ratingEl) => {
     ratingEl.classList.remove('active');
-  })
+  });
 }
